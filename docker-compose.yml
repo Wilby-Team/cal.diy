@@ -5,9 +5,3 @@ services:
       context: .
       dockerfile: Dockerfile
     restart: always
-  calcom-api:
-    container_name: calcom-api
-    build:
-      context: .
-      dockerfile: apps/api/v2/Dockerfile
-    restart: always
